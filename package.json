@@ -1,0 +1,27 @@
+{
+  "name": "@brite/auth",
+  "module": "index.ts",
+  "type": "module",
+  "author": {
+    "name": "Besmillah Ibrahimi",
+    "email": "besmillah@ibrahimi.info",
+    "url": "https://ibrahimi.info"
+  },
+  "maintainers": [
+    {
+      "name": "Besmillah Ibrahimi",
+      "email": "besmillah@ibrahimi.info",
+      "url": "https://ibrahimi.info"
+    }
+  ],
+  "scripts": {
+    "test": "bun test",
+    "release": "npm run build && npm run test && npm publish --access public"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
